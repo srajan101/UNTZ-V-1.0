@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UNTZ/Global/Networking/EMReqeustManager.swift"
+            timestampString = "515067093.165428"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "sendRequestWithURL(_:method:queryParameters:bodyParameters:headers:isLoginHeaderRequired:retryCount:needsLogin:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UNTZ/Controllers/Event/EventDetailsViewController.swift"
+            timestampString = "520958080.575691"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "522"
+            endingLineNumber = "522"
+            landmarkName = "markEventAsCanceledOrNot(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UNTZ.EventDetailsViewController.(markEventAsCanceledOrNot (Swift.Bool) -&gt; ()).(closure #1)"
+                  moduleName = "UNTZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahesh/Documents/UNTZ%20Project/Aug/UNTZ/UNTZ/Controllers/Event/EventDetailsViewController.swift"
+                  timestampString = "523553104.416891"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "522"
+                  endingLineNumber = "522"
+                  offsetFromSymbolStart = "935">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UNTZ.EventDetailsViewController.(markEventAsCanceledOrNot (Swift.Bool) -&gt; ()).(closure #1)"
+                  moduleName = "UNTZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mahesh/Documents/UNTZ%20Project/Aug/UNTZ/UNTZ/Controllers/Event/EventDetailsViewController.swift"
+                  timestampString = "523553104.419451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "522"
+                  endingLineNumber = "522"
+                  offsetFromSymbolStart = "1194">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UNTZ/Controllers/Event/EventDetailsViewController.swift"
+            timestampString = "520958080.575691"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "769"
+            endingLineNumber = "769"
+            landmarkName = "changeViewToLiveOrCancel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
