@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SuggestedPlayTracksCell" id="HKS-gB-V8u" userLabel="SuggestedPlayTracksCell" customClass="SuggestedPlayTracksCell" customModule="UNTZ" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HKS-gB-V8u" id="ZQI-ER-LN8">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="84.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_no_track_playlist" translatesAutoresizingMaskIntoConstraints="NO" id="7v1-BH-ahW">
+                        <rect key="frame" x="13" y="17.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Be0-aL-0KX"/>
+                            <constraint firstAttribute="width" constant="50" id="eBS-YV-eJ7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99r-m5-AtY">
+                        <rect key="frame" x="73" y="20" width="292" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="eHJ-OQ-r8c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                        <color key="textColor" red="0.74509803919999995" green="0.078431372550000003" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6J-4D-imf">
+                        <rect key="frame" x="73" y="41" width="128" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="O9x-pv-qz4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48l-7h-j0K">
+                        <rect key="frame" x="286" y="47.5" width="25" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="AQc-vJ-hO1"/>
+                            <constraint firstAttribute="width" constant="25" id="eeU-FJ-sDT"/>
+                        </constraints>
+                        <state key="normal" image="likesG"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JqC-fF-Z9Y">
+                        <rect key="frame" x="318" y="45.5" width="15" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Jfu-Xx-gre"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="15" id="UtM-Rl-3Fz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="17"/>
+                        <color key="textColor" red="0.61176470589999998" green="0.61176470589999998" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzk-Ws-kv2">
+                        <rect key="frame" x="340" y="45.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="DE7-1c-POf"/>
+                            <constraint firstAttribute="height" constant="25" id="nKb-2h-DMd"/>
+                        </constraints>
+                        <state key="normal" image="spotify"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPN-ZA-79s">
+                        <rect key="frame" x="0.0" y="83.5" width="375" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="fRI-ci-Xv6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.80392156859999997" green="0.80392156859999997" blue="0.80392156859999997" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCH-ug-dqv">
+                        <rect key="frame" x="206" y="46.5" width="70" height="25"/>
+                        <color key="backgroundColor" red="0.1137254902" green="0.63137254899999995" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="OYD-wI-gWd"/>
+                            <constraint firstAttribute="height" constant="25" id="Z1J-oq-r9j"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                        <state key="normal" title="Add To">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oPN-ZA-79s" firstAttribute="leading" secondItem="ZQI-ER-LN8" secondAttribute="leading" id="5KM-eG-hLg"/>
+                    <constraint firstAttribute="trailing" secondItem="oPN-ZA-79s" secondAttribute="trailing" id="5nE-DZ-7dx"/>
+                    <constraint firstItem="Zzk-Ws-kv2" firstAttribute="bottom" secondItem="48l-7h-j0K" secondAttribute="bottom" id="6CQ-Sd-POW"/>
+                    <constraint firstAttribute="bottom" secondItem="oPN-ZA-79s" secondAttribute="bottom" id="Co5-vy-Rxl"/>
+                    <constraint firstAttribute="trailing" secondItem="Zzk-Ws-kv2" secondAttribute="trailing" constant="10" id="EZz-TU-lRW"/>
+                    <constraint firstItem="WCH-ug-dqv" firstAttribute="bottom" secondItem="Zzk-Ws-kv2" secondAttribute="bottom" constant="1" id="IKc-gC-4u2"/>
+                    <constraint firstItem="JqC-fF-Z9Y" firstAttribute="leading" secondItem="48l-7h-j0K" secondAttribute="trailing" constant="7" id="JJ4-lr-DVa"/>
+                    <constraint firstItem="Zzk-Ws-kv2" firstAttribute="leading" secondItem="JqC-fF-Z9Y" secondAttribute="trailing" constant="7" id="KtB-MJ-dX1"/>
+                    <constraint firstItem="Zzk-Ws-kv2" firstAttribute="bottom" secondItem="JqC-fF-Z9Y" secondAttribute="bottom" id="Vat-jo-LR2"/>
+                    <constraint firstItem="oPN-ZA-79s" firstAttribute="top" secondItem="Zzk-Ws-kv2" secondAttribute="bottom" constant="13" id="Y2S-m7-qOs"/>
+                    <constraint firstAttribute="trailing" secondItem="99r-m5-AtY" secondAttribute="trailing" constant="10" id="Zi7-t6-6yy"/>
+                    <constraint firstItem="7v1-BH-ahW" firstAttribute="leading" secondItem="ZQI-ER-LN8" secondAttribute="leading" constant="13" id="aaZ-X6-a6X"/>
+                    <constraint firstItem="99r-m5-AtY" firstAttribute="top" secondItem="ZQI-ER-LN8" secondAttribute="top" constant="20" id="e8s-kg-w9M"/>
+                    <constraint firstItem="99r-m5-AtY" firstAttribute="leading" secondItem="7v1-BH-ahW" secondAttribute="trailing" constant="10" id="fKO-Gc-oTU"/>
+                    <constraint firstItem="7v1-BH-ahW" firstAttribute="centerY" secondItem="ZQI-ER-LN8" secondAttribute="centerY" id="gLM-NK-g7k"/>
+                    <constraint firstItem="WCH-ug-dqv" firstAttribute="leading" secondItem="J6J-4D-imf" secondAttribute="trailing" constant="5" id="iAC-wd-JwY"/>
+                    <constraint firstItem="J6J-4D-imf" firstAttribute="leading" secondItem="7v1-BH-ahW" secondAttribute="trailing" constant="10" id="lEk-6t-Yyk"/>
+                    <constraint firstItem="48l-7h-j0K" firstAttribute="leading" secondItem="WCH-ug-dqv" secondAttribute="trailing" constant="10" id="lnN-E0-GKD"/>
+                    <constraint firstItem="J6J-4D-imf" firstAttribute="top" secondItem="99r-m5-AtY" secondAttribute="bottom" constant="3" id="waX-Qz-amq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="OU0-cz-ygT"/>
+            <connections>
+                <outlet property="LikeBtn" destination="48l-7h-j0K" id="64n-Rd-vie"/>
+                <outlet property="addButton" destination="WCH-ug-dqv" id="ldM-Gb-tpe"/>
+                <outlet property="artistNameLbl" destination="J6J-4D-imf" id="LOO-Kq-bJn"/>
+                <outlet property="likeCntLbl" destination="JqC-fF-Z9Y" id="GN8-Ov-uxZ"/>
+                <outlet property="spotifyBtn" destination="Zzk-Ws-kv2" id="uEn-JG-b34"/>
+                <outlet property="spotifyBtnWidth" destination="DE7-1c-POf" id="IPM-Oc-wGR"/>
+                <outlet property="trackImageV" destination="7v1-BH-ahW" id="6a5-TY-En5"/>
+                <outlet property="trackTitleLbl" destination="99r-m5-AtY" id="mSK-qK-2Lg"/>
+            </connections>
+            <point key="canvasLocation" x="66" y="117.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_no_track_playlist" width="47" height="48"/>
+        <image name="likesG" width="27" height="26"/>
+        <image name="spotify" width="31" height="31"/>
+    </resources>
+</document>

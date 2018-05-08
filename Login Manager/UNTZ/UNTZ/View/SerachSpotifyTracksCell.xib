@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="SearchSpotifyTracksCell" rowHeight="145" id="Yvr-ed-C8p" customClass="SearchSpotifyTracksCell" customModule="UNTZ" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yvr-ed-C8p" id="Zih-cs-nuU">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjd-ec-AZJ">
+                        <rect key="frame" x="10" y="10" width="355" height="119.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nka-H7-6zw">
+                        <rect key="frame" x="10" y="16" width="355" height="108"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GID-0x-dEy">
+                                <rect key="frame" x="13" y="10" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="GCg-ex-bGD"/>
+                                    <constraint firstAttribute="height" constant="50" id="e1r-3J-QUv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qed-xW-Tvf" customClass="UNLabel" customModule="UNTZ" customModuleProvider="target">
+                                <rect key="frame" x="73" y="12" width="272" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="bEY-Qw-PVk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="textColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qM-AP-DSg" userLabel="Artist Label" customClass="UNLabel" customModule="UNTZ" customModuleProvider="target">
+                                <rect key="frame" x="73" y="36" width="272" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="3VU-YI-37W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
+                                <color key="textColor" red="0.53725490200000003" green="0.58431372550000005" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrv-eO-dNh">
+                                <rect key="frame" x="235" y="68" width="110" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="dLP-7g-kck"/>
+                                    <constraint firstAttribute="height" constant="35" id="xR9-IB-cFP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Request" image="ic_music_request">
+                                    <color key="titleColor" red="0.15686274510000001" green="0.61568627450000002" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cN-6K-HT6">
+                                <rect key="frame" x="8" y="67.5" width="145" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="2Pg-nz-w1U"/>
+                                    <constraint firstAttribute="width" constant="145" id="yqV-tg-Ro8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Play In Spotify" image="play_spotify">
+                                    <color key="titleColor" red="0.15686274510000001" green="0.61568627450000002" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qed-xW-Tvf" secondAttribute="trailing" constant="10" id="1ga-z8-VtA"/>
+                            <constraint firstAttribute="bottom" secondItem="Xrv-eO-dNh" secondAttribute="bottom" constant="5" id="6BS-Tx-VJb"/>
+                            <constraint firstItem="qed-xW-Tvf" firstAttribute="top" secondItem="nka-H7-6zw" secondAttribute="top" constant="12" id="Ba6-bT-JPs"/>
+                            <constraint firstAttribute="trailing" secondItem="Xrv-eO-dNh" secondAttribute="trailing" constant="10" id="H8t-R7-h3W"/>
+                            <constraint firstItem="qed-xW-Tvf" firstAttribute="leading" secondItem="4qM-AP-DSg" secondAttribute="leading" id="OIm-70-ZaV"/>
+                            <constraint firstItem="4cN-6K-HT6" firstAttribute="leading" secondItem="nka-H7-6zw" secondAttribute="leading" constant="8" id="T6V-n3-gFG"/>
+                            <constraint firstItem="qed-xW-Tvf" firstAttribute="leading" secondItem="GID-0x-dEy" secondAttribute="trailing" constant="10" id="ZAV-1P-2dU"/>
+                            <constraint firstItem="GID-0x-dEy" firstAttribute="leading" secondItem="nka-H7-6zw" secondAttribute="leading" constant="13" id="du0-7J-EPw"/>
+                            <constraint firstAttribute="bottom" secondItem="4cN-6K-HT6" secondAttribute="bottom" constant="5" id="eFx-n7-eva"/>
+                            <constraint firstItem="GID-0x-dEy" firstAttribute="top" secondItem="nka-H7-6zw" secondAttribute="top" constant="10" id="pDy-uD-DJ1"/>
+                            <constraint firstItem="4qM-AP-DSg" firstAttribute="top" secondItem="qed-xW-Tvf" secondAttribute="bottom" constant="8" id="sIY-ku-WGH"/>
+                            <constraint firstItem="qed-xW-Tvf" firstAttribute="trailing" secondItem="4qM-AP-DSg" secondAttribute="trailing" id="yES-oO-VRQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gjd-ec-AZJ" secondAttribute="bottom" constant="10" id="BII-KP-tOI"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="nka-H7-6zw" secondAttribute="bottom" constant="5" id="K7I-1H-bat"/>
+                    <constraint firstItem="gjd-ec-AZJ" firstAttribute="leading" secondItem="Zih-cs-nuU" secondAttribute="leading" constant="10" id="Osc-9M-et5"/>
+                    <constraint firstAttribute="trailing" secondItem="nka-H7-6zw" secondAttribute="trailing" constant="10" id="Whw-G8-C8c"/>
+                    <constraint firstItem="gjd-ec-AZJ" firstAttribute="top" secondItem="Zih-cs-nuU" secondAttribute="top" constant="10" id="bRN-bD-jx2"/>
+                    <constraint firstItem="nka-H7-6zw" firstAttribute="top" secondItem="Zih-cs-nuU" secondAttribute="topMargin" constant="5" id="dqJ-8l-wUF"/>
+                    <constraint firstAttribute="trailing" secondItem="gjd-ec-AZJ" secondAttribute="trailing" constant="10" id="gTi-Ab-Iqe"/>
+                    <constraint firstItem="nka-H7-6zw" firstAttribute="leading" secondItem="Zih-cs-nuU" secondAttribute="leading" constant="10" id="vQT-6n-6zy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistLabel" destination="4qM-AP-DSg" id="lY7-Az-UQa"/>
+                <outlet property="nameLabel" destination="qed-xW-Tvf" id="65L-7b-IQT"/>
+                <outlet property="playInSpotifyButton" destination="4cN-6K-HT6" id="dYC-R3-UdJ"/>
+                <outlet property="requestButton" destination="Xrv-eO-dNh" id="66c-qr-xj3"/>
+                <outlet property="requestImageView" destination="GID-0x-dEy" id="WZP-Md-vqC"/>
+                <outlet property="shadowview" destination="gjd-ec-AZJ" id="sMf-sf-b2t"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_music_request" width="16" height="18"/>
+        <image name="play_spotify" width="25" height="25"/>
+    </resources>
+</document>
